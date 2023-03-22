@@ -32,7 +32,7 @@ In order to lockdown a Windows IoT device, the following considerations must be 
 
 ### Platform Secure Boot
 
-When the device is first powered on, the first step in the overall boot process is to load and run firmware boot loaders, which initialize the hardware on the devies and provide emergency flashing functionality. The UEFI environment is then loaded and control is handed over.
+When the device is first powered on, the first step in the overall boot process is to load and run firmware boot loaders, which initialize the hardware on the devices and provide emergency flashing functionality. The UEFI environment is then loaded and control is handed over.
 
 These firmware boot loaders are SoC-specific, so you will need to work with the appropriate device manufacturer to have these boot loaders created on the device.
 
